@@ -462,7 +462,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mallet
+  m_text: Hammer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -580,10 +580,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 20.5
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -735,30 +735,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41231461}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &86101615 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3444999423534157431, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-  m_PrefabInstance: {fileID: 1176085845}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &86101616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
   m_PrefabInstance: {fileID: 1176085845}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &86101617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86101615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0abeca5a3caa4e44886027ad5e36ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feedbackText: {fileID: 1056127030}
-  customText: You hit my left arm
 --- !u!1 &106695295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,7 +1129,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1839,7 +1820,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u200B"
+  m_text: "vkjn sfavknsdfjvnajkvnfsdjkvnkvnskjvnskjvnsdkjvnsdkjvnsdjkvnjkvnsdkjvnkjvnsjkvnskjvnsdjkvnsdjkvsdvvffjvnfjvnfvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvfvvfmvk
+    nfkv fvnk fnv fnv fmnv fdmnv dnmfv fdnmv fdv ndfv dfnv dnv n vv\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1882,7 +1864,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2256,7 +2238,7 @@ GameObject:
   - component: {fileID: 448689760}
   - component: {fileID: 448689759}
   m_Layer: 5
-  m_Name: Mallet Button
+  m_Name: Hammer Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2347,7 +2329,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mallet
+          m_StringArgument: Hammer
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &448689760
@@ -3188,6 +3170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feebackDisplayTime: 5
   patientCondition: I have crippling depression
+  equippedTool: {fileID: 1420591571}
   feedback: {fileID: 1056127030}
   notepadCondition: {fileID: 2095783593}
   notepadNotes: {fileID: 634021651}
@@ -3275,7 +3258,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633286005}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -3456,7 +3439,7 @@ MonoBehaviour:
   m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
-  m_LineType: 0
+  m_LineType: 2
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
@@ -3490,7 +3473,8 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: vkjn sfavknsdfjvnajkvnfsdjkvnkvnskjvnskjvnsdkjvnsdkjvnsdjkvnjkvnsdkjvnkjvnsjkvnskjvnsdjkvnsdjkvsdvvffjvnfjvnfvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvnfjvfvvfmvk
+    nfkv fvnk fnv fnv fmnv fdmnv dnmfv fdnmv fdv ndfv dfnv dnv n vv
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -3765,7 +3749,7 @@ MonoBehaviour:
   m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
-  m_LineType: 0
+  m_LineType: 1
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
@@ -4113,30 +4097,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &710469436 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3444999423534157431, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-  m_PrefabInstance: {fileID: 1773280741389297836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &710469437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
   m_PrefabInstance: {fileID: 1773280741389297836}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &710469438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710469436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0abeca5a3caa4e44886027ad5e36ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feedbackText: {fileID: 1056127030}
-  customText: ' You hit my right arm'
 --- !u!1 &719814160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5803,73 +5768,78 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1822086309}
     m_Modifications:
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: failText
+      value: Nothing Happened
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: useCotton
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: useHammer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: successText
+      value: My left arm feels normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 1056127030}
     - target: {fileID: 3444999423534157431, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_Name
-      value: Left Arm Hitbox
+      value: Left Upper Arm Hitbox
       objectReference: {fileID: 0}
-    - target: {fileID: 4919383798310877106, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 7015442800041070197, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0033
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.015
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.013
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.112449616
+      value: 0.12886
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.10617376
+      value: 0.092296034
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6946437
+      value: -0.69526625
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.70253295
+      value: -0.7010574
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -72
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -87
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3444999423534157431, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 86101617}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
 --- !u!1 &1180245906
 GameObject:
@@ -5962,7 +5932,7 @@ MonoBehaviour:
   m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
-  m_LineType: 0
+  m_LineType: 1
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
@@ -6270,7 +6240,7 @@ MonoBehaviour:
   m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
-  m_LineType: 0
+  m_LineType: 1
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
@@ -8640,7 +8610,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -11099,10 +11069,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 26.85
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -12205,73 +12175,82 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1822086270}
     m_Modifications:
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: failText
+      value: Nothing Happened
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: useCotton
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: useHammer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: successText
+      value: My right arm feels weird
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238565563475893583, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 1056127030}
     - target: {fileID: 3444999423534157431, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_Name
       value: Right Arm HitBox
       objectReference: {fileID: 0}
-    - target: {fileID: 4919383798310877106, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 7015442800041070197, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.08
+    - target: {fileID: 7655796796637834637, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0017
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0058
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99999976
+      value: 0.6915801
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00046108908
+      value: 0.72190887
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0004283713
+      value: -0.0038125524
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00033479804
+      value: 0.023451507
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 87.072
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -214.03
       objectReference: {fileID: 0}
     - target: {fileID: 7807709135290614456, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -211.82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3444999423534157431, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 710469438}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f10500c14ab331c44bcb288b5bce4e4d, type: 3}
 --- !u!1 &2943453896696944188
 GameObject:

@@ -23,6 +23,9 @@ public class MainSceneUIManager : MonoBehaviour
     private float feebackDisplayTime;
     [SerializeField]
     private string patientCondition;
+
+    [SerializeField]
+    TextMeshProUGUI equippedTool;
     [SerializeField]
     TextMeshProUGUI feedback;
     [SerializeField]
@@ -91,4 +94,8 @@ public class MainSceneUIManager : MonoBehaviour
 
     }
 
+    public string GetEquippedTool()
+    {
+        return equippedTool.text;
+    }
 }
