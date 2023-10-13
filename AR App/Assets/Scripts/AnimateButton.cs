@@ -60,6 +60,11 @@ public class AnimateButton : MonoBehaviour
         expand = !expand;
     }
 
+    public void SetExpandButtons(bool expandbutton)
+    {
+        expand = expandbutton;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -70,7 +75,6 @@ public class AnimateButton : MonoBehaviour
                 childButtons[i].gameObject.SetActive(true);
                 childButtons[i].gameObject.transform.localPosition = Vector2.MoveTowards(childButtons[i].gameObject.transform.localPosition, targetPositions[i], speed);
             }
-            print("activated");
         }
         else if(!expand && childButtons[0].gameObject.activeSelf)
         {
@@ -79,7 +83,6 @@ public class AnimateButton : MonoBehaviour
                 childButtons[i].gameObject.transform.localPosition = new Vector2(0, 0);
                 childButtons[i].gameObject.SetActive(false);
             }
-            print("stop");
         }
     }
 }

@@ -5,11 +5,9 @@ using TMPro;
 
 public class ARInteraction : MonoBehaviour
 {
-    [SerializeField]
-    private TextMeshProUGUI screenText;
     private void Start()
     {
-        screenText.gameObject.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -25,11 +23,6 @@ public class ARInteraction : MonoBehaviour
                 {
                     hit.collider.gameObject.GetComponent<InteractableObject>().ReactToUser();
                 }
-            }
-
-            else
-            {
-                screenText.gameObject.SetActive(false);
             }
         }
     }
