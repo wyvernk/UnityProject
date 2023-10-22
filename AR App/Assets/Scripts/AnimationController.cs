@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour
 {
-    public void SetLie(bool lie)
+    //0 for lie, 1 for sit, 2 for stand
+    public void SetState(int state)
     {
-        this.GetComponent<Animator>().SetBool("Lying", lie);
+        this.GetComponent<Animator>().SetInteger("State", state);
     }
+
 }
