@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class MainSceneUIManager : MonoBehaviour
 {
+    [SerializeField]
+    private ScenarioManager scenarioManager;
+
     public static MainSceneUIManager Instance { get; private set; }
     private void Awake()
     {
@@ -21,7 +24,6 @@ public class MainSceneUIManager : MonoBehaviour
 
     [SerializeField]
     private float feebackDisplayTime;
-    [SerializeField]
     private string patientCondition;
 
     [SerializeField]
@@ -33,7 +35,7 @@ public class MainSceneUIManager : MonoBehaviour
     [SerializeField]
     TMP_InputField notepadNotes;
     [SerializeField]
-    TextMeshProUGUI reviewNotepadNotes;
+    TMP_InputField reviewNotepadNotes;
     [SerializeField]
     TMP_InputField questionOneAnswer;
     [SerializeField]
@@ -47,6 +49,7 @@ public class MainSceneUIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        patientCondition = scenarioManager.GetCondition();
         notepadCondition.text = patientCondition;
     }
 

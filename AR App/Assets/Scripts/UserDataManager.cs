@@ -22,6 +22,10 @@ public class UserDataManager : MonoBehaviour
     private string questionTwoAnswer;
     private string questionThreeAnswer;
 
+    private string questionOneCorrectAnswer;
+    private string questionTwoCorrectAnswer;
+    private string questionThreeCorrectAnswer;
+
     public void SetQuestionOneAnswer(string answer)
     {
         questionOneAnswer = answer;
@@ -37,6 +41,21 @@ public class UserDataManager : MonoBehaviour
         questionThreeAnswer = answer;
     }
 
+    public void SetQuestionOneCorrectAnswer(string answer)
+    {
+        questionOneCorrectAnswer = answer;
+    }
+
+    public void SetQuestionTwoCorrectAnswer(string answer)
+    {
+        questionTwoCorrectAnswer = answer;
+    }
+
+    public void SetQuestionThreeCorrectAnswer(string answer)
+    {
+        questionThreeCorrectAnswer = answer;
+    }
+
     public string GetQuestionOneAnswer()
     {
         return questionOneAnswer;
@@ -50,5 +69,20 @@ public class UserDataManager : MonoBehaviour
     public string GetQuestionThreeAnswer()
     {
         return questionThreeAnswer;
+    }
+
+    public string GetQuestionOneCorrectAnswer()
+    {
+        return questionOneCorrectAnswer;
+    }
+
+    public string GetQuestionTwoCorrectAnswer()
+    {
+        return questionTwoCorrectAnswer;
+    }
+
+    public string GetQuestionThreeCorrectAnswer()
+    {
+        return questionThreeCorrectAnswer;
     }
 }

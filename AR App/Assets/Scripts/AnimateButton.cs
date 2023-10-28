@@ -73,7 +73,7 @@ public class AnimateButton : MonoBehaviour
             for (int i = 0; i < childButtons.Length; i++)
             {
                 childButtons[i].gameObject.SetActive(true);
-                childButtons[i].gameObject.transform.localPosition = Vector2.MoveTowards(childButtons[i].gameObject.transform.localPosition, targetPositions[i], speed);
+                childButtons[i].gameObject.transform.localPosition = Vector2.MoveTowards(childButtons[i].gameObject.transform.localPosition, targetPositions[i], speed * Time.deltaTime);
             }
         }
         else if(!expand && childButtons[0].gameObject.activeSelf)

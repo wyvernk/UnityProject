@@ -26,11 +26,22 @@ public class ReviewSceneUIManager : MonoBehaviour
     [SerializeField]
     TMP_InputField questionThreeAnswer;
 
+    [SerializeField]
+    TMP_InputField questionOneCorrectAnswer;
+    [SerializeField]
+    TMP_InputField questionTwoCorrectAnswer;
+    [SerializeField]
+    TMP_InputField questionThreeCorrectAnswer;
+
     private void Start()
     {
         questionOneAnswer.text = UserDataManager.Instance.GetQuestionOneAnswer();
         questionTwoAnswer.text = UserDataManager.Instance.GetQuestionTwoAnswer();
         questionThreeAnswer.text = UserDataManager.Instance.GetQuestionThreeAnswer();
+
+        questionOneCorrectAnswer.text = UserDataManager.Instance.GetQuestionOneCorrectAnswer();
+        questionTwoCorrectAnswer.text = UserDataManager.Instance.GetQuestionTwoCorrectAnswer();
+        questionThreeCorrectAnswer.text = UserDataManager.Instance.GetQuestionThreeCorrectAnswer();
     }
 
     public void Return()
