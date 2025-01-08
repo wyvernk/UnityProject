@@ -3,7 +3,7 @@
 <h1>👨‍💻 Problem Statement:</h1>
 <b>In higher education institutions, there are many students that are enrolled but the amount of resources provided may not be enough to cater to these students. This is prevalent in physiotherapy courses as the     course requires physical tools and equipment that are limited in number for students to practise their craft. This can result in students feeling underprepared for their tests and examinations as they do not have enough practice with the physical equipment. The physical equipment is also only available on campuses and they are expensive to purchase.</b>
 
-<h1> Needfinding Method:</h1>
+<h2> Needfinding Method:</h2>
 - <b>1) Focus Group</b>
 - A focus group was conducted on 13 September 2023 with 5 participants, with an age ranging from 20 to 25 years old. The questions focused on understanding the challenges faced in higher education. We would like to improve the learning process of physiotherapy students to help them better prepare for their assignments and exams. It was found that during their exam periods, there was not enough equipment for them which resulted in long waiting times.
 - <b>2) Online Survey</b>
