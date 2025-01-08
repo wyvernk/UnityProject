@@ -1,9 +1,7 @@
 # AR PhysioLab
 
 <h1>👨‍💻 Problem Statement:</h1>
-<br>
-  In higher education institutions, there are many students that are enrolled but the amount of resources provided may not be enough to cater to these students. This is prevalent in physiotherapy courses as the     course requires physical tools and equipment that are limited in number for students to practise their craft. This can result in students feeling underprepared for their tests and examinations as they do not have enough practice with the physical equipment. The physical equipment is also only available on campuses and they are expensive to purchase.
-</br>
+<b>In higher education institutions, there are many students that are enrolled but the amount of resources provided may not be enough to cater to these students. This is prevalent in physiotherapy courses as the     course requires physical tools and equipment that are limited in number for students to practise their craft. This can result in students feeling underprepared for their tests and examinations as they do not have enough practice with the physical equipment. The physical equipment is also only available on campuses and they are expensive to purchase.</b>
 
 <h1> Needfinding Method:</h1>
 1)Focus Group
