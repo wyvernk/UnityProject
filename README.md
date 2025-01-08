@@ -5,7 +5,7 @@
 
 <h2> Needfinding Method:</h2>
 - <b>1) Focus Group</b>
-- A focus group was conducted on 13 September 2023 with 5 participants, with an age ranging from 20 to 25 years old. The questions focused on understanding the challenges faced in higher education. We would like to improve the learning process of physiotherapy students to help them better prepare for their assignments and exams. It was found that during their exam periods, there was not enough equipment for them which resulted in long waiting times.
+- A focus group was conducted on 13 September 2023 with 5 participants, with an age ranging from 20 to 25 years old. The questions focused on understanding the challenges faced in higher education. We would like to improve the learning process of physiotherapy students to help them better prepare for their assignments and exams. It was found that during their exam periods, there was not enough equipment for them which resulted in long waiting times.<br>
 - <b>2) Online Survey</b>
 - A survey was conducted from 16 September 2023 to 19 September 2023, there were 31 responses, with an age range of 20 to 25 years old, with questions focusing on understanding the education experience of SIT Physiotherapy students in order to improve their learning process to help them better prepare for their assignments and exams. It was found that especially during exam period, students found themselves experiencing long waiting times for equipment such as plinths, pillow and pillow cover, and skeleton that was necessary for them to use in order to  practise for their exams. As well as, no existing scheduling methods to help combat this. 
 
