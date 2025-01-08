@@ -22,9 +22,9 @@
 <b>2) Think-aloud evaluation</b> <br>
   - A think-aloud evaluation was conducted on 12 October 2023 with Group 29. Firstly, we read the usability script to them and got their consent to perform the evaluation. We then conducted the evaluation where each individual had to complete the tasks assigned while speaking out their thoughts. <br>
 <b><h2>Conclusion of the testing</h2></b> <br>
-- Heuristic evaluation <br>
+<b>1) Heuristic Evaluation</b> <br>
   -From the heuristic evaluation, we realised that we were lacking a back button in many scenarios. Our instruction page is also too wordy, not easily accessible and there is no alternative way for users to understand how to use the application. We also did not have sufficient feedback as users are currently unable to tell if they are using the wrong tool and there are no hints to tell the user if what they are doing is the right or wrong thing. Lastly, there is no way for users to have a look at their past diagnosis attempts which can be helpful for reflection. <br>
-- Think-Aloud evaluation <br>
+<b>2) Think-aloud evaluation</b> <br>
   - From the think-aloud evaluation, we found out there are a lot of problems with the instructions page and finding out the patient’s condition. Similar to our heuristic evaluation, users feedback that the instruction page was too wordy and was only accessible from the menu, causing them to get lost when they start the diagnosis as they forgot the instructions and can no longer access it. Some users are also not familiar with the AR plane finding functionality and do not know what it means when they are required to look for a smooth surface to start diagnosing the patient. When told to find the patient diagnosis, our user interface was not clear enough and users took a long time to find where it was located. Users are also not familiar with interacting with AR objects and did not know how to use the tools they selected to interact with the augmented patient. Similar to the heuristic evaluation, they also did not know if the tool they were using was being used correctly or not. Lastly, the notes they noted down could have been put to better use as users thought that the notes would have been reflected on the findings submission pages but they were not.
 
 <h1> Implementation:</h1>
