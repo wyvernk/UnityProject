@@ -59,10 +59,33 @@ In higher education institutions, there are many students that are enrolled, but
 ---
 
 ## Implementation:
-- **Unity engine**: Easy to pick up with many libraries and APIs that we could use to help with project implementation.
+- **Unity engine**: Easy to pick up with many libraries and APIs that we could use to help with project implementation.  
 - **Vuforia AR engine**: Easy to pick up as an AR engine and has functionalities required for the project.
+
+### Implementation Plan:
+
+| **Task**                                                      | **Components/Dependencies**   | **Done by** | **Due Date** |
+|---------------------------------------------------------------|--------------------------------|-------------|--------------|
+| Setup project base                                            | Unity engine, Vuforia AR engine | Wyvern      | 17/10/23     |
+| Create main menu                                              | Unity engine                   | Den         | 19/10/23     |
+| Create and implement button functionality for posture and tools | Unity engine, Vuforia AR engine | Wyvern      | 20/10/23     |
+| Create and implement button functionality for reviewing of diagnosis | Unity engine                   | Wyvern      | 22/10/23     |
+| Create and implement button functionality for patient condition | Unity engine                   | Brendan     | 24/10/23     |
+| Create and implement functionality for text box for user feedback when interacting with patient | Unity engine, Vuforia AR engine | Den         | 26/10/23     |
+| Create Instruction page and inputting instruction list        | Unity engine                   | Hakim       | 17/10/23     |
+| Creating the interface of the scanning screen                | Unity engine                   | Jess        | 19/10/23     |
+| Create the AR plinth bed and patient                         | Unity engine                   | Wyvern      | 18/10/23     |
+| Make the AR plinth bed and patient appear on the scanning screen upon detecting a smooth surface | Unity engine, Vuforia AR engine | Wyvern      | 20/10/23     |
+| Create the Note Taking page                                  | Unity engine                   | Brendan     | 21/10/23     |
+| Create UI sprites for buttons                                | Unity engine                   | Zining      | 19/10/23     |
 
 ---
 
 ## Result:
 - This is the [YouTube link](https://youtu.be/wX21M9F2J64?feature=shared) to our final product demo.
+![image](https://github.com/user-attachments/assets/339dcaa3-fae8-4f0c-963f-d2630dbb7c6d)
+![image](https://github.com/user-attachments/assets/317c6336-b1a9-4b8a-97ae-617090650673)
+![image](https://github.com/user-attachments/assets/a4e56c52-b1b3-4e07-9c1a-f11fcdf84f24)
+
+
+
