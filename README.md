@@ -6,7 +6,7 @@ In higher education institutions, there are many students that are enrolled, but
 ## Needfinding Method:
 ### 1) Focus Group
 - A focus group was conducted on 13 September 2023 with 5 participants, with an age ranging from 20 to 25 years old. The questions focused on understanding the challenges faced in higher education. We would like to improve the learning process of physiotherapy students to help them better prepare for their assignments and exams. It was found that during their exam periods, there was not enough equipment for them, which resulted in long waiting times.  
-![Focus Group](assets/focus_group_image.png)
+![image](https://github.com/user-attachments/assets/1e40d31d-65e3-4c55-9ae5-a1044c4cd1ff)
 
 ### 2) Online Survey
 - A survey was conducted from 16 September 2023 to 19 September 2023, with 31 responses, and an age range of 20 to 25 years old. The questions focused on understanding the education experience of SIT Physiotherapy students to improve their learning process and help them better prepare for their assignments and exams. It was found that especially during exam periods, students experienced long waiting times for equipment such as plinths, pillows and pillow covers, and skeletons necessary for them to practice for their exams. Additionally, there were no existing scheduling methods to help combat this.
@@ -21,7 +21,7 @@ In higher education institutions, there are many students that are enrolled, but
 
 ## Low Fidelity Prototype:
 - The Prototype Video is made to help understand the full flow. It is located in the same GitHub folder named **“lofi”**. It is also available on [YouTube](https://youtu.be/YlqpJZwEBHg).  
-![Low Fidelity Prototype](assets/low_fidelity_prototype_image.png)
+![image](https://github.com/user-attachments/assets/5217a697-4ed4-4d56-9a7f-709d270bc60d)
 
 ---
 
