@@ -83,9 +83,9 @@ In higher education institutions, there are many students that are enrolled, but
 
 ## Result:
 - This is the [YouTube link](https://youtu.be/wX21M9F2J64?feature=shared) to our final product demo.
-![image](https://github.com/user-attachments/assets/339dcaa3-fae8-4f0c-963f-d2630dbb7c6d)
-![image](https://github.com/user-attachments/assets/317c6336-b1a9-4b8a-97ae-617090650673)
-![image](https://github.com/user-attachments/assets/a4e56c52-b1b3-4e07-9c1a-f11fcdf84f24)
+- ![image](https://github.com/user-attachments/assets/339dcaa3-fae8-4f0c-963f-d2630dbb7c6d)
+- ![image](https://github.com/user-attachments/assets/317c6336-b1a9-4b8a-97ae-617090650673)
+- ![image](https://github.com/user-attachments/assets/a4e56c52-b1b3-4e07-9c1a-f11fcdf84f24)
 
 
 
