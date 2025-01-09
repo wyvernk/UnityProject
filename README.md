@@ -6,7 +6,7 @@
 <h2> Needfinding Method:</h2>
 <b>1) Focus Group</b><br>
 - A focus group was conducted on 13 September 2023 with 5 participants, with an age ranging from 20 to 25 years old. The questions focused on understanding the challenges faced in higher education. We would like to improve the learning process of physiotherapy students to help them better prepare for their assignments and exams. It was found that during their exam periods, there was not enough equipment for them which resulted in long waiting times.<br>
-![image](https://github.com/user-attachments/assets/e25b3be2-e7cf-4ee3-a401-eec07bdb304e)
+* ![image](https://github.com/user-attachments/assets/e25b3be2-e7cf-4ee3-a401-eec07bdb304e)<br>
 Conducting the focus group session with physiotherapy students
 
 <b>2) Online Survey</b><br>
